@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="usubway.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="routesearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="whenfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="routesearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="whenfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\pictures\face\background\5b7f6931ecc1c.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\19Y888piCanw.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\38.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\88.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\0908.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\1562.png_300.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\13754ad4da7cef332ecfbdbb19f1a992.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\center.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\center2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\center3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\true.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\true00.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\word.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\word_z.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000001.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000001_b.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000002.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000002_b.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000003.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000003_b.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000004.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\000004_b.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\300.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\a_button_01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\a_button_1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\a_button_1_b.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\b_button _a.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\b_button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\c_button.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\e25f7e388e914fdc894b0868ffc8e1bc680_680.jpg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\input.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\input_z.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\jc1809141_4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\jc1809141_6.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\puzzle.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\puzzle1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\puzzle6.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\qi.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\qi_z.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\true.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\zhong.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\button\zhong_z.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\all.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line5.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line7.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line9.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\mappictures\line11.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\word_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pictures\face\background\word_2_z.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\pictures\face\button\未标题-1.psd">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

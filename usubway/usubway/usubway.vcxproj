@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F1CAAE45-8AD5-47D2-B050-D4A8C3FEDCAA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>usubway</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="routesearch.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="usubway.cpp" />
+    <ClCompile Include="whenfunction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="routesearch.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="whenfunction.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\pictures\face\background\0908.png.png" />
+    <Image Include="..\pictures\face\background\13754ad4da7cef332ecfbdbb19f1a992.jpg" />
+    <Image Include="..\pictures\face\background\1562.png_300.png" />
+    <Image Include="..\pictures\face\background\19Y888piCanw.jpg" />
+    <Image Include="..\pictures\face\background\38.png" />
+    <Image Include="..\pictures\face\background\5b7f6931ecc1c.jpg" />
+    <Image Include="..\pictures\face\background\88.png" />
+    <Image Include="..\pictures\face\background\center.jpg" />
+    <Image Include="..\pictures\face\background\center2.jpg" />
+    <Image Include="..\pictures\face\background\center3.jpg" />
+    <Image Include="..\pictures\face\background\true.jpg" />
+    <Image Include="..\pictures\face\background\true00.jpg" />
+    <Image Include="..\pictures\face\background\word.png" />
+    <Image Include="..\pictures\face\background\word_2.png" />
+    <Image Include="..\pictures\face\background\word_2_z.png" />
+    <Image Include="..\pictures\face\background\word_z.png" />
+    <Image Include="..\pictures\face\button\000001.png" />
+    <Image Include="..\pictures\face\button\000001_b.png" />
+    <Image Include="..\pictures\face\button\000002.png" />
+    <Image Include="..\pictures\face\button\000002_b.png" />
+    <Image Include="..\pictures\face\button\000003.png" />
+    <Image Include="..\pictures\face\button\000003_b.png" />
+    <Image Include="..\pictures\face\button\000004.png" />
+    <Image Include="..\pictures\face\button\000004_b.png" />
+    <Image Include="..\pictures\face\button\300.png" />
+    <Image Include="..\pictures\face\button\a_button_01.png" />
+    <Image Include="..\pictures\face\button\a_button_1.jpg" />
+    <Image Include="..\pictures\face\button\a_button_1_b.png" />
+    <Image Include="..\pictures\face\button\b_button _a.png" />
+    <Image Include="..\pictures\face\button\b_button.png" />
+    <Image Include="..\pictures\face\button\c_button.jpg" />
+    <Image Include="..\pictures\face\button\e25f7e388e914fdc894b0868ffc8e1bc680_680.jpg.png" />
+    <Image Include="..\pictures\face\button\input.png" />
+    <Image Include="..\pictures\face\button\input_z.png" />
+    <Image Include="..\pictures\face\button\jc1809141_4.jpg" />
+    <Image Include="..\pictures\face\button\jc1809141_6.jpg" />
+    <Image Include="..\pictures\face\button\puzzle.jpg" />
+    <Image Include="..\pictures\face\button\puzzle1.jpg" />
+    <Image Include="..\pictures\face\button\puzzle6.jpg" />
+    <Image Include="..\pictures\face\button\qi.png" />
+    <Image Include="..\pictures\face\button\qi_z.png" />
+    <Image Include="..\pictures\face\button\true.jpg" />
+    <Image Include="..\pictures\face\button\zhong.png" />
+    <Image Include="..\pictures\face\button\zhong_z.png" />
+    <Image Include="..\pictures\mappictures\all.jpg" />
+    <Image Include="..\pictures\mappictures\line1.jpg" />
+    <Image Include="..\pictures\mappictures\line11.jpg" />
+    <Image Include="..\pictures\mappictures\line2.jpg" />
+    <Image Include="..\pictures\mappictures\line3.jpg" />
+    <Image Include="..\pictures\mappictures\line4.jpg" />
+    <Image Include="..\pictures\mappictures\line5.jpg" />
+    <Image Include="..\pictures\mappictures\line7.jpg" />
+    <Image Include="..\pictures\mappictures\line9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\pictures\face\button\未标题-1.psd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
